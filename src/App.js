@@ -9,7 +9,7 @@ function App() {
   const [data,setData] = useState([]);
   const getUser = async() => {
     try {
-      const response = await axios.get("/api/getUser");
+      const response = await axios.get("https://nft-event.herokuapp.com/api/getUser");
       console.log(response.data);
       setData(response.data);
     } catch (err) {
