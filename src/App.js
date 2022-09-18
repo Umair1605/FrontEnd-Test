@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import './App.css';
-import { Row, Col, Card, Button,Table } from 'react-bootstrap'
-import { Navbar, Nav, Container } from 'react-bootstrap'
+import { Table } from 'react-bootstrap'
+import { Navbar, Container } from 'react-bootstrap'
 import axios from 'axios'
 
 function App() {
